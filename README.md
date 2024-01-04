@@ -2,6 +2,10 @@
 
 My first personal circuit board project which I took on sort of like a hackathon to get done fast so I could show potential employers in the summer of 2019. Designed, ordered, assembled, programmed and debugged in the space of two weeks! Unfotunately I didn't get to show it off much given my limited number of interviews, but still proud of it.
 
+![Assembled gameBOI board](./gameboi-assembled.jpg)
+
+*I initially forgot to buy one SMD resistor, so had to use a through-hole one.* 
+
 ## Hardware
 
 The design is pretty simple looking back, basically the heart of an Arduino Nano with four shift registers daisy-chained to control the LEDs on board. There are two buttons for user input and two rows of 16 LEDs each resulting in the games and UI/UX being pretty simplistic. Power was supplied through a 9V battery that hung off the board going through a linear regulator.
